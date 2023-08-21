@@ -1,3 +1,14 @@
+function copyToClipboard(text) {
+	const textArea = document.createElement('textarea');
+	textArea.value = text;
+	document.body.appendChild(textArea);
+	textArea.select();
+	document.execCommand('copy');
+	document.body.removeChild(textArea);
+	
+	// Display a message or perform any other action you want
+	alert('Email address copied to clipboard: ' + text);
+}
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn

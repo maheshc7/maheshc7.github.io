@@ -8,23 +8,34 @@
 
 .contact-icons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     align-items: center;
-    gap: 35px;
+    gap: 10%;
 }
 
-.icon {
+.social {
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-decoration: none;
+	text-transform: 0.2s;
 }
 
-.icon-text {
+.social-text {
     margin-top: 1px;
 }
 
+.contact-icons a:hover .social-text {
+    color: inherit !important;
+}
+
+.contact-icons a:hover .fas{
+    color: inherit !important;
+}
+
+.contact-icons a:hover .fab{
+    color: inherit !important;
+}
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
