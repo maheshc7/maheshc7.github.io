@@ -1,11 +1,3 @@
-const pdfButton = document.getElementById("pdfButton");
-const pdfFrame = document.getElementById("pdf-frame");
-
-pdfButton.addEventListener("click", () => {
-  pdfFrame.src = "https://drive.google.com/file/d/11AIpFajR1wFZUjWq8IAKfprsa1JFUVSH/view?usp=sharing";//"https://github.com/maheshc7/maheshc7/blob/main/Mahesh_Resume_073123.pdf";
-  pdfFrame.style.display = "block";
-});
-
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
