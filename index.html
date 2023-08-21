@@ -48,9 +48,9 @@
 						<!-- One -->
 							<section id="about">
 								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
+									<img src="images/bg1.jpeg" alt="" />
 								</div>
-								<div class="container">
+								<div class="container" style="background-image: url('../../images/oregon2.jpg');">
 									<header class="major">
 										<h2>Hi, I'm Mahesh!</h2>
 										<p>A passionate and innovative software engineer<br>
@@ -164,11 +164,23 @@
 									<h3>Contact Me</h3>
 									<p>Let's connect and explore how we can leverage technology to create meaningful solutions together!</p>
 
-									<ul class="icons">
-										<li><a href="https://www.linkedin.com/in/maheshc7/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/maheshc7/" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="mailto:maheshchoudhary028@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-									</ul>
+									<div class="contact-icons">
+										<a href="https://www.linkedin.com/in/maheshc7/" target="_blank" class="icon linkedin" title="LinkedIn" style="color: #0E76A8;">
+											<i class="fab fa-linkedin fa-3x fa-shake"></i>
+										</a>
+										<a href="https://github.com/maheshc7/" target="_blank" class="icon github" title="GitHub" style="color: black;">
+											<i class="fab fa-github fa-3x fa-flip"></i>
+										</a>
+										<a href="mailto:maheshchoudhary@gmail.com" class="icon envelope" target="_blank" title="Email" style="color: #EA4335;">
+											<i class="fas fa-envelope fa-3x fa-bounce"></i>
+										</a>
+										<button id= "pdfButton" class="icon resume" target="_blank" title="Resume" style="color: #FBBC05;">
+											<i class="fas fa-file-pdf fa-3x fa-bounce"></i>
+										</button>
+									</div>
+									<div class="pdf-container">
+										<iframe id="pdf-frame"></iframe>
+									</div>
 									<!-- <form method="post" action="#">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>

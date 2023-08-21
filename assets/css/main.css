@@ -6,6 +6,19 @@
     color: #3897a0;
 }
 
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+	text-decoration: none;
+}
+
+.icon-link{
+    text-decoration: underline;
+    display: inline-block; /* This helps remove any extra spacing or line height */
+}
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -2212,7 +2225,6 @@ input, select, textarea {
 			.image.main img {
 				border-radius: 0;
 			}
-
 /* List */
 
 	ol {
@@ -3036,6 +3048,7 @@ input, select, textarea {
 
 			.image.main {
 				height: 20em;
+				display: none;
 			}
 
 		/* Header */
@@ -3218,6 +3231,7 @@ input, select, textarea {
 
 			.image.main {
 				height: 12em;
+				display: none;
 			}
 
 		/* Section/Article */
